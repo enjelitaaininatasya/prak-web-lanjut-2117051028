@@ -9,16 +9,16 @@
     <center>
     <table>
         <tr>
-            <td><img src="<?= base_url('assets/img/foto.jpg'); ?>"></td>
+            <td><img class="foto" src="<?= $user['foto'] ?? '<default-foto>' ?>" alt="Foto"></td>
         </tr>
         <tr>
-            <td><p class="text"><?= $nama ?></p></td>
+            <td><p class="text"><?= $user['nama'] ?></p></td>
         </tr>
         <tr>
-            <td><p class="text"><?= $kelas ?></p></td>
+            <td><p class="text"><?= $user['npm'] ?></p></td>
         </tr>
         <tr>
-            <td><p class="text"><?= $npm ?></p></td>
+            <td><p class="text"><?= $user['nama_kelas'] ?></p></td>
         </tr>
     </table>
     </center>
