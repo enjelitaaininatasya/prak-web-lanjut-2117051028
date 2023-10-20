@@ -1,7 +1,7 @@
 <?= $this->extend('layouts/app')?>
 
 <?= $this->section('content')?>
-    <h1 style="margin-top:30px;">Form Edit User</h1>
+    <h1 style="margin-top:30px;">Form Edit Kelas</h1>
 
     <form action="<?= base_url('/kelas/' . $kelas['id']) ?>" method="POST" style="margin-top:50px;" enctype="multipart/form-data">
         <input type="hidden" name="_method" value="PUT">
